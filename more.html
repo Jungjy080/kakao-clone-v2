@@ -9,18 +9,21 @@
       integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/styles.css">
     <title>More | Kakao Clone</title>
   </head>
   <body>
     <div class="status-bar">
-      <div class="status-bar__column"></div>
-      <span class="status-bar__clock">13:54</span>
-      <div class="status-bar__column"></div>
-      <i class="fas fa-clock"></i>
-      <i class="fas fa-volume-mute"></i>
-      <i class="fas fa-wifi"></i>
-      <span class=status-bar__battery-level">100%</span>
-      <i class="fas fa-battery-full"></i>
+        <div class="status-bar__column">
+            <span class="status-bar__clock">13:54</span>
+        </div>
+        <div class="status-bar__column">
+            <i class="fas fa-clock"></i>
+            <i class="fas fa-volume-mute"></i>
+            <i class="fas fa-wifi"></i>
+            <span class=status-bar__battery-level">100%</span>
+            <i class="fas fa-battery-full"></i>
+        </div>
     </div>
     <header class="header">
         <div class="header__header-column">
@@ -44,7 +47,7 @@
         <header class="more_header">
             <div class="friends__friend friend friend--lg">
                 <div class="friend__column">
-                    <img src="images/RYAN.jpg" class="g-RYAN friend__RYAN">
+                    <img src="images/RYAN.jpg" class="m-character friend__character">
                     <div class="friend__content">
                         <span class="friend__name">
                              RYAN
@@ -59,21 +62,21 @@
                 </div>
             </div>
             <ul class="more__btn-list">
-                <li class="more-btn">
+                <li class="more__btn">
                     <span class="more__btn-icon"></span>
                     <i class="far fa-smile fa-2x"></i>
                     <span class="more__btn-title">
                         Emoticons
                     </span>
                 </li>
-                <li class="more-btn">
+                <li class="more__btn">
                     <span class="more__btn-icon"></span>
                     <i class="fas fa-brush fa-2x"></i>
                     <span class="more__btn-title">
                         Themes
                     </span>
                 </li>
-                <li class="more-btn">
+                <li class="more__btn">
                     <span class="more__btn-icon"></span>
                     <i class="fab fa-kickstarter-k fa-2x"></i>
                     <span class="more__btn-title">
@@ -95,7 +98,7 @@
                     <span class="suggestion__icon">
                         <i class="fas fa-beer fa-2x"></i>
                     </span>
-                    <span class="suggestion__title">Kakao friend__status</span>
+                    <span class="suggestion__title">Kakao friend</span>
                 </li>
                 <li class="more__suggestion suggestion">
                     <span class="suggestion__icon">
@@ -106,8 +109,8 @@
             </ul>
         </section>
     </main>
-    <nav class="navi__list">
-        <ul class="navi__list">
+    <nav class="nav">
+        <ul class="nav__list">
             <li class="nav__list-item">
                 <a href="friends.html" class="nav__list-link">
                     <i class="far fa-user"></i>

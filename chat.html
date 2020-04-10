@@ -9,18 +9,21 @@
       integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/styles.css">
     <title>Chat | Kakao Clone</title>
   </head>
   <body>
     <div class="status-bar">
-      <div class="status-bar__column"></div>
-      <span class="status-bar__clock">13:54</span>
-      <div class="status-bar__column"></div>
-      <i class="fas fa-clock"></i>
-      <i class="fas fa-volume-mute"></i>
-      <i class="fas fa-wifi"></i>
-      <span class=status-bar__battery-level">100%</span>
-      <i class="fas fa-battery-full"></i>
+        <div class="status-bar__column">
+            <span class="status-bar__clock">13:54</span>
+        </div>
+        <div class="status-bar__column">
+            <i class="fas fa-clock"></i>
+            <i class="fas fa-volume-mute"></i>
+            <i class="fas fa-wifi"></i>
+            <span class=status-bar__battery-level">100%</span>
+            <i class="fas fa-battery-full"></i>
+        </div>
     </div>
     <header class="header">
         <div class="header__header-column">
@@ -33,16 +36,16 @@
             <span class="header__icon">
                 <i class="fas fa-search"></i>
             </span>
-            <div class="header__icon">
+            <span class="header__icon">
                 <i class="fas fa-bars"></i>
-            </div>
+            </span>
         </div>
     </header>
     <main class="chat">
         <ul class="chat__messages">
             <span class="chat__timestamp">Monday, March 4, 2020</span>
             <li class="incoming-message message">
-                <img src="images/APEACH.jpg" class="g-character message__character">
+                <img src="images/APEACH.jpg" class="m-character message__character">
                 <div class="message__content">
                     <span class="message_author">Best Friend</span>
                     <div class="message_bubble">
