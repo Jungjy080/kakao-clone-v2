@@ -1,4 +1,15 @@
-.more .more__btn-list,
+.more .more__title {
+  margin-top: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.more .more__btn-list {
+  margin-bottom: 30px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
 .more .more__suggestions-list {
   margin: 30px 0px;
   margin-left: 10px;
@@ -6,7 +17,16 @@
   align-items: center;
 }
 
-.more__btn-list .more__btn,
+.more__btn-list .more__btn {
+  margin-top: 10px;
+  margin-right: 55px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
 .more .suggestion {
   margin-right: 40px;
   display: flex;
@@ -20,18 +40,14 @@
   margin-top: 15px;
 }
 
+.more .more__kakaoStyle,
 .more .more__suggestions {
   border-top: 1px solid #f7f7f7f7;
-  padding-top: 20px;
-}
-
-.more .more__title {
-  opacity: 0.8;
-  margin-bottom: 20px;
+  padding-top: 10px;
 }
 
 .suggestion .suggestion__title {
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 15px;
 }
 
@@ -45,6 +61,6 @@
 }
 
 .suggestion__icon i {
-  font-size: 28px;
+  font-size: 20px;
   color: white;
 }

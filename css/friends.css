@@ -11,3 +11,16 @@
   opacity: 0.6;
   margin-bottom: 10px;
 }
+
+.friends__plus-title,
+.friends__title {
+  margin-bottom: 10px;
+}
+
+.fa-play-circle {
+  color: #52e084;
+}
+
+.friend--lg {
+  margin-bottom: 15px;
+}
